@@ -1,5 +1,6 @@
 # dynamic_videos
-Motion tracking results of DeepMesh (the proposed method). Results are shown by overlaping meshes and images.
+Motion tracking results of DeepMesh (the proposed method). 
+Results are shown by overlaping meshes and images. Red contours are predicted results while green contours are ground truth
 SAX | 2CH| 4CH 
 --- | --- | --- 
 <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/sa_mid_pred.gif" width="120" height="120" /> | <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/la_2ch_pred.gif" width="120" height="120" /> | <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/la_4ch_pred.gif" width="120" height="120" /> 
