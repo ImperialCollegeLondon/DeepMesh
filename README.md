@@ -11,3 +11,28 @@ FFD | dDemons | 3D-UNet | MulViMotion|MeshMotion|DeepMesh(Proposed)
 <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/FFD_crop.gif" width="120" height="120" /> | <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/dDemons_crop.gif" width="120" height="120" /> | <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/3DUnet_crop.gif" width="120" height="120" /> | <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/MulviMotion_crop.gif" width="120" height="120" /> | <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/MeshMotion_crop.gif" width="120" height="120" /> | <img src="https://github.com/qmeng99/dynamic_videos/blob/main/gifs/DeepMesh_crop.gif" width="120" height="120" />
 
 
+# Network Architectures
+The network architecture of the Deformation network (H_D(·))
+<p align="center">
+    <img src="DeformationNetwork.png" width="100%" height="100%">
+</p>
+
+The network architecture of the Motion network (H_M(·))
+<p align="center">
+    <img src="MotionNetwork.png" width="100%" height="100%">
+</p>
+
+The network architecture for 2D feature learning in the Motion network
+<p align="center">
+    <img src="2DFeatureLearning.png" width="100%" height="100%">
+</p>
+
+The network architecture for 3D feature learning in the Motion network
+<p align="center">
+    <img src="3DFeatureLearning.png" width="100%" height="100%">
+</p>
+<p align="center">
+    <img src="2DFeatureLearning.png" width="100%" height="100%">
+</p>
+
+
