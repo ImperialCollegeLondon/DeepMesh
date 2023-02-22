@@ -12,24 +12,26 @@ FFD | dDemons | 3D-UNet | MulViMotion|MeshMotion|DeepMesh(Proposed)
 
 
 # Network Architectures
-**The network architecture of the Deformation network (H_D(·))**
+
 <p align="center">
     <img src="https://github.com/qmeng99/dynamic_videos/blob/main/network_architecture/DeformationNetwork.png" width="100%" height="100%">
 </p>
+**The network architecture of the Deformation network (H_D(·))**
 
-The network architecture of the Motion network (H_M(·))
 <p align="center">
     <img src="https://github.com/qmeng99/dynamic_videos/blob/main/network_architecture/MotionNetwork.png" width="100%" height="100%">
 </p>
+**The network architecture of the Motion network (H_M(·))**
 
-The network architecture for 2D feature learning in the Motion network
 <p align="center">
     <img src="https://github.com/qmeng99/dynamic_videos/blob/main/network_architecture/2DFeatureLearning.png" width="100%" height="100%">
 </p>
+**The network architecture for 2D feature learning in the Motion network**
 
-The network architecture for 3D feature learning in the Motion network
+
 <p align="center">
     <img src="https://github.com/qmeng99/dynamic_videos/blob/main/network_architecture/3DFeatureLearning.png" width="100%" height="100%">
 </p>
+**The network architecture for 3D feature learning in the Motion network**
 
 
