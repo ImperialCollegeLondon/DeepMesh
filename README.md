@@ -1,4 +1,4 @@
-# dynamic_videos
+# DeepMesh
 Motion tracking results of DeepMesh (the proposed method). 
 Results are shown by overlaping meshes and images. Red contours are predicted results while green contours are ground truth
 SAX | 2CH| 4CH 
