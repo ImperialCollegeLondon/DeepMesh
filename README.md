@@ -1,4 +1,7 @@
 # DeepMesh
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8200635.svg)](https://doi.org/10.5281/zenodo.8200635)
+
 Motion tracking results of DeepMesh (the proposed method). 
 Results are shown by overlaping meshes and images. Red contours are predicted results while green contours are ground truth
 SAX | 2CH| 4CH 
