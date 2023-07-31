@@ -37,4 +37,5 @@ FFD | dDemons | 3D-UNet | MulViMotion|MeshMotion|DeepMesh(Proposed)
     <img src="https://github.com/qmeng99/DeepMesh/blob/main/network_architecture/3DFeatureLearning.png" width="100%" height="100%">
 </p>
 
-
+# Citation
+Meng Q, Bai W, Liu T, O’Regan DP & Rueckert D. Mesh-based 3D Motion Tracking in Cardiac MRI using Deep Learning. _arXiv_, 2209.02004 (2022)
