@@ -218,7 +218,7 @@ def test_all(sub_path):
 
 
 
-test_data_path = '/vol/bitbucket/qm216/UKBBcardiac/cardiacdata/ukbbSALA_CMR/test'
+test_data_path = '/test_data_path'
 
 test_set = TestDataset(test_data_path)
 testing_data_loader = DataLoader(dataset=test_set, num_workers=n_worker, batch_size=bs, shuffle=False)
