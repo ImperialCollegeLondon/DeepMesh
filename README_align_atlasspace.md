@@ -1,6 +1,6 @@
 
 ## Overview
-The ''align_atlasspace.py'' processes 4D cardiac data by applying **Rigid Registration** to align subject meshes with an atlas and transforem all the subjects from subject-space to atlas-space. It utilizes libraries such as **VTK** and  **IRTK** for mesh handling and **Nibabel** for NIfTI file processing.
+The **align_atlasspace.py** processes 4D cardiac data by applying **Rigid Registration** to align subject meshes with an atlas and transforem all the subjects from subject-space to atlas-space. It utilizes libraries such as **VTK** and  **IRTK** for mesh handling and **Nibabel** for NIfTI file processing.
 
 ## Features
 - Reads and processes 4D cardiac mesh data.
