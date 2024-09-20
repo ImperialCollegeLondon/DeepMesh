@@ -1,5 +1,5 @@
 ###############################################################################################################
-## To align subject meshes with an atlas and transforem all the subjects from subject-space to atlas-space.
+## To align subject meshes with an atlas and transform all the subjects from subject-space to atlas-space.
 ## By Soodeh
 ##  Sep 2024
 ###############################################################################################################
