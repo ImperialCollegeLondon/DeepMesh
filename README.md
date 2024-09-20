@@ -41,4 +41,4 @@ FFD | dDemons | 3D-UNet | MulViMotion|MeshMotion|DeepMesh(Proposed)
 </p>
 
 # Citation
-Meng Q, Bai W, Liu T, O’Regan DP & Rueckert D. Mesh-based 3D Motion Tracking in Cardiac MRI using Deep Learning. _arXiv_, 2209.02004 (2022)
+Meng Q, Bai W, O'Regan DP, Rueckert D. DeepMesh: Mesh-Based Cardiac Motion Tracking Using Deep Learning. _IEEE Trans Med Imaging_. 2024;43(4):1489-1500. doi: [10.1109/TMI.2023.3340118](https://doi.org/10.1109/tmi.2023.3340118).
