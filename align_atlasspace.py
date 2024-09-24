@@ -15,7 +15,6 @@ import time
 import shutil    # For removing directories
 import argparse  # For command-line argument parsing
 
-# Functions for scaling, shearing, and DOF saving remain the same
 # Function to read a VTK file using VTK library
 def read_vtk(file_path):
     reader = vtk.vtkPolyDataReader()
