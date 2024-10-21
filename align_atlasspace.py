@@ -93,7 +93,7 @@ def process_subjects(UKBB_DIR, MESH_DIR, ATLAS_DIR, OUTPUT_DIR, SECTION, N_FRAME
     # Extract atlas faces (if needed for later comparisons)
     atlas_faces = atlas_mesh.GetPolys()
 
-    for subject in tqdm(data[60:68], desc='Processing', unit='subject'):
+    for subject in tqdm(data, desc='Processing', unit='subject'):
         print('ID', subject)
 
         start_time = time.time()
