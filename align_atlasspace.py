@@ -179,13 +179,18 @@ def process_subjects(UKBB_DIR, MESH_DIR, ATLAS_DIR, OUTPUT_DIR, SECTION, N_FRAME
                         f"-dofin {dofout_file_rreg}"
                     )
                     subprocess.run(ptransformation_cmd, shell=True, check=True)
+            
+            # Remove the temporary files after use
+            if os.path.exists(dof_folder):
+                shutil.rmtree(dof_folder)  # Remove the entire directory and its contents
+        
 
         print(f"Processed and aligned all frames for subject {subject}")
         print("--- %s seconds ---" % (time.time() - start_time))
 
-        # Remove the temporary files after use
-        if os.path.exists(dof_folder):
-            shutil.rmtree(dof_folder)  # Remove the entire directory and its contents
+        # # Remove the temporary files after use
+        # if os.path.exists(dof_folder):
+        #     shutil.rmtree(dof_folder)  # Remove the entire directory and its contents
 
     print("Processing complete.")
 
